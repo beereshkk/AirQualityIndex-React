@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Electrolize", sans-serif;
+}
+
+.container_wrap {
+  box-sizing: border-box;
+  font-family: "Electrolize", sans-serif;
+  width: 100%;
+  min-width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  background: url("../components//bg.jpg");
+  background-size: contain;
+}
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.search-button {
+  color: rgb(16, 40, 82);
+  // color: red;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: white;
+  border-radius: 5px;
+  margin-left: 5px;
+  padding: 11px;
+  border: 2px solid rgb(16, 40, 82);
+  display: inline-block;
+  transition: all 0.4 ease 0s;
+}
+.search-button:hover {
+  color: #fff;
+  background: #ff6768;
+  border-color: #ff6768;
+  transition: all 0.4s ease 0s;
+}
+
+.geo-button {
+  color: rgb(16, 40, 82);
+  text-transform: uppercase;
+  text-decoration: none;
+  background: white;
+  border-radius: 5px;
+  padding: 11px;
+}
+
+.search-input {
+  width: 240px;
+  overflow: hidden;
+  font-size: 20px;
+  margin: 8px 0px;
+  padding: 8px 0px;
+  border-bottom: 3px solid #ff6768;
+  color: rgb(16, 40, 82);
+  outline: none;
+  background: none;
+}
+input {
+  border: none;
+}
+input::placeholder {
+  color: rgb(16, 40, 82);
+}
+
+main {
+  padding: 40px;
+  margin-top: 10px;
+  display: block;
+  background: linear-gradient(
+    to bottom,
+    rgba(31, 78, 148, 0.571),
+    rgb(19, 50, 96)
+  );
+  background-size: cover;
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: ease-out;
+  box-shadow: 10px 10px 20px 10px rgb(16, 40, 82);
+}
+
+.location {
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-align: center;
+  p {
+    font-size: 1.2rem;
+  }
+}
+.quality {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.quality-icon {
+  font-size: 5rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+}
+.quality-description {
+  font-size: 2.2rem;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.index-value {
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.view_details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.view_details button {
+  transition: all 0.4s ease 0s;
+  font-size: 15px;
+  font-weight: 660;
+  border-radius: 10px;
+  padding: 10px;
+  width: fit-content;
+  height: fit-content;
+}
+.view_details button:hover {
+  color: #fff;
+  background: #ff6768;
+}
